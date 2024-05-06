@@ -1,9 +1,9 @@
 # 4BIT_SYNCHRONOUS_UP_COUNTER
-#AIM
+# AIM
 To simulate and synthesis 4bit synchronous up counter using vivado.
-#APPARATUS REQUIRED
+# APPARATUS REQUIRED
 vivado 2023.2 software.
-#PROCEDURE
+# PROCEDURE
 STEP:1 Start the vivado software, Select and Name the New project. 
 STEP:2 Select the device family, device, package and speed.
 STEP:3 Select new source in the New Project and select Verilog Module as the Source type.
@@ -17,7 +17,7 @@ STEP:7 compare the output with truth table.# 4BIT_SYNCHRONOUS_UP_COUNTER
 # <img width="362" alt="image" src="https://github.com/RESMIRNAIR/4BIT_SYNCHRONOUS_UP_COUNTER/assets/154305926/2be84c5a-099f-4418-8d0b-ace34f734342">
 # Timing diagram of the synchronous counter
 ![image](https://github.com/RESMIRNAIR/4BIT_SYNCHRONOUS_UP_COUNTER/assets/154305926/62c47758-b0a4-4fe0-842f-5c4245a88ff2)
-#VERILOG CODE
+# VERILOG CODE
 module synchronous_up_counter(
 
 input wire clk, // Clock input
@@ -41,8 +41,8 @@ count <= count + 1; // Increment the count on each clock cycle
 end
 
 endmodule
-#OUTPUT
+# OUTPUT
 ![image](https://github.com/Monss-12/4BIT_SYNCHRONOUS_UP_COUNTER/assets/163823193/50d0c419-f340-45ec-82e9-c053cab78241)
-#RESULT
+# RESULT
 Thus 4bit synchronous up counter is verified successfully
 
